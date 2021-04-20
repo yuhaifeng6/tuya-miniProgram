@@ -1,0 +1,6 @@
+/* pages/home_center/common_panel/components/showPower/index.wxss */
+.power_box text {
+  padding: 10px 15px;
+  border: 1px solid #ff4900;
+  color: #ff4900;
+}

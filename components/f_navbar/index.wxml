@@ -1,0 +1,11 @@
+<!--components/f_navbar/index.wxml-->
+<view class="tab_box">
+  <block class="tab_view">
+    <view class="list_item" wx:for="{{tabList}}" wx:for-index="index" wx:for-item="item" bindtap="clickTab" data-item="{{index}}">
+      <view class="icon">
+        <text class="iconfont {{item.icon}}  {{clickIndex==index?'active':''}}"></text>
+      </view>
+      <view class="text {{clickIndex==index?'active':''}}">{{item.text}}</view>
+    </view>
+  </block>
+</view>

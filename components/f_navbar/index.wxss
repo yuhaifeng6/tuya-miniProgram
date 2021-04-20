@@ -1,0 +1,23 @@
+/* components/f_navbar/index.wxss */
+.tab_box {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  padding: 10px 0;
+  background-color: #fff;
+}
+.tab_box .list_item {
+  flex: 1;
+  text-align: center;
+}
+.tab_box .list_item .text {
+  color: #666;
+}
+.tab_box .list_item .icon {
+  margin-bottom: 5px;
+}
+.active {
+  color: #ff4900!important;
+}

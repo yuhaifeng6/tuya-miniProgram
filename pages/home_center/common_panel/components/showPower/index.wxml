@@ -1,0 +1,4 @@
+<!--pages/home_center/common_panel/components/showPower/index.wxml-->
+<view class="power_box">
+  <text>用电量显示</text>
+</view>

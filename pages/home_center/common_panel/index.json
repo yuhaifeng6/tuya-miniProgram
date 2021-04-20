@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "navbar": "../../../components/t_navbar/index",
+    "Boolean": "./components/Boolean/index",
+    "Enum": "./components/Enum/index",
+    "Integer": "./components/Integer/index",
+    "tabbar": "../../../components/f_navbar/index",
+    "showPower": "./components/showPower/index"
+  },
+  "navigationStyle": "custom"
+}
